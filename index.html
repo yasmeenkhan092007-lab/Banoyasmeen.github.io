@@ -1,0 +1,33 @@
+<!-- ================= index.html ================= --><!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Good Luck Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body><div class="container">
+  <h1>This is the 10 Rupees Good Luck Website</h1>
+  <button onclick="goToPayment()">Pay Now</button>
+</div><script src="script.js"></script></body>
+</html><!-- ================= qare.html ================= --><!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QR Payment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body><div class="container">
+  <h2>Scan and Pay</h2>
+  <img src="Qare yashi.png" alt="QR Code" width="250">
+</div></body>
+</html><!-- ================= style.css ================= -->body { font-family: Arial, sans-serif; background: linear-gradient(to right, #ff9a9e, #fad0c4); text-align: center; padding: 50px; }
+
+.container { background: white; padding: 30px; border-radius: 10px; width: 300px; margin: auto; box-shadow: 0 0 10px rgba(0,0,0,0.2); }
+
+h1, h2 { margin-bottom: 20px; }
+
+button { padding: 10px 20px; font-size: 16px; border: none; background: #28a745; color: white; border-radius: 5px; cursor: pointer; }
+
+button:hover { background: #218838; }
+
+img { margin-top: 20px; border-radius: 10px; }
+
+<!-- ================= script.js ================= -->function goToPayment() { window.location.href = "qare.html"; }
